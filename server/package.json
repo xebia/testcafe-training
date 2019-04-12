@@ -25,7 +25,7 @@
     "passport-jwt": "^3.0.0",
     "sequelize": "^4.37.4",
     "moment": "~> 2.19.3",
-    "sqlite3": "^3.1.13"
+    "sqlite3": "^4"
   },
   "devDependencies": {
     "eslint-config-standard": "^10.2.1",
