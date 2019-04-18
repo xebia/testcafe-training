@@ -1,4 +1,4 @@
-* Cypress.io
+* TestCafe
   * [Documentation](https://docs.cypress.io/)
   * [GitHub](https://github.com/cypress-io/cypress)
   * [Homepage](https://cypress.io/)

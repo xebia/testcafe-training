@@ -1,7 +1,7 @@
 # OVERVIEW AND INSTALLATION
 
 ## Welcome!
-These pages serve as documentation for the Cypress Training. You can work through the exercises at your own pace.
+These pages serve as documentation for the TestCafe Training. You can work through the exercises at your own pace.
 
 The system under test that we will be using is a tabular music tracker. It consists out of a server part, which interfaces with the database. The more visible part is the client, running in your browser as a VueJS project. We will focus on testing the client with Cypress.io.
 
@@ -11,10 +11,10 @@ The system under test that we will be using is a tabular music tracker. It consi
 In order to run the project locally, it is required that you have `npm` and `git` installed. Follow the instructions in the section 'Checking out the project'.
 
 ## Checking out the project
-1. Clone the [project from GitHub](https://github.com/xebia/cypress-training)
+1. Clone the [project from GitHub](https://github.com/xebia/testcafe-training)
 
 ```
-git clone https://github.com/xebia/cypress-training.git
+git clone https://github.com/xebia/testcafe-training.git
 ```
 
 ## Starting the client & server
@@ -39,16 +39,16 @@ In another terminal, run the following:
 
 ## Installing Cypress
 
-Installing Cypress via NPM is easy from your project folder.
+Installing TestCafe via NPM is easy from your project folder.
 
-By typing `npm install cypress --save-dev` NPM will do 2 things:
+By typing `npm install testcafe --save-dev` NPM will do 2 things:
 
-* download Cypress into the node_modules folder
-* add cypress (and all packages it depends on) to package.json
+* download TestCafe into the node_modules folder
+* add TestCafe (and all packages it depends on) to package.json
 
-![Cypress installation](./images/installing-cli.e1693232.gif "Cypress Installation")
+![TestCafe installation](./images/installing-cli.e1693232.gif "TestCafe Installation")
 
-## Launching Cypress
+## Launching TestCafe
 
 To launch Cypress simply run the following command
 
