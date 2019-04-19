@@ -1,7 +1,8 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend",
+  "repository": {},
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/app.js --exec  \"npm run lint && node\"",
