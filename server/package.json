@@ -14,26 +14,26 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "bluebird": "^3.5.0",
-    "body-parser": "^1.17.2",
-    "cors": "^2.8.4",
-    "express": "^4.15.4",
+    "bluebird": "^3.5.4",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
     "joi": "^10.6.0",
-    "jsonwebtoken": "^8.0.0",
-    "morgan": "^1.8.2",
-    "passport": "^0.4.0",
-    "passport-jwt": "^3.0.0",
-    "sequelize": "^4.37.4",
+    "jsonwebtoken": "^8.5.1",
     "moment": "~> 2.19.3",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^4.43.2",
     "sqlite3": "^4"
   },
   "devDependencies": {
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
-    "eslint-plugin-promise": "^3.5.0",
-    "eslint-plugin-standard": "^3.0.1",
     "eslint": "^4.6.0",
-    "nodemon": "^1.11.0"
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.18.11"
   }
 }
