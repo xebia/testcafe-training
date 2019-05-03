@@ -37,24 +37,21 @@ In another terminal, run the following:
 
  Now go to http://localhost:8080 to check if everything is running correctly.
 
-## Installing Cypress
+## Installing TestCafe
 
 Installing TestCafe via NPM is easy from your project folder.
 
-By typing `npm install testcafe --save-dev` NPM will do 2 things:
+By typing `npm install -g testcafe` NPM will :
 
-* download TestCafe into the node_modules folder
-* add TestCafe (and all packages it depends on) to package.json
+* download TestCafe into your global (!) node_modules folder
 
-![TestCafe installation](./images/installing-cli.e1693232.gif "TestCafe Installation")
+For Live-reloading purposes TestCafe has a seperate package which can be installed like this:
+`npm install testcafe-live `. This will:
 
-## Launching TestCafe
+* download TestCafe-Live into your global (!) node_modules folder
 
-To launch Cypress simply run the following command
 
-```npx cypress open```
-
-This will open the Cypress GUI for you and create the necessary folder structure for you.
+![TestCafe installation](./images/install-and-run-test.gif "TestCafe Installation")
 
 
  ### About NPM
