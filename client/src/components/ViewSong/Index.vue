@@ -46,6 +46,7 @@ export default {
   },
   async mounted () {
     const songId = this.route.params.songId
+    await SongsService.show(songId).data
     this.song = (await SongsService.show(songId)).data
 
     if (this.isUserLoggedIn) {
