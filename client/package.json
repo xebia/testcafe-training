@@ -14,7 +14,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.19.0",
     "lodash": "^4.17.11",
     "vue": "^2.6.10",
     "vue-router": "^2.7.0",
